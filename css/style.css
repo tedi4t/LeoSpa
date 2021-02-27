@@ -1,0 +1,58 @@
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-pink {
+  color: #ff817e;
+}
+
+#banner {
+  padding: 12%;
+  background: url("../images/leaf.png") no-repeat left center/12.5%;
+}
+
+.spa-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+}
+.spa-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.button-pink, .button-transperent {
+  border: 0px;
+  padding: 15px 30px;
+  transition-duration: 300ms;
+}
+
+.button-pink {
+  background: #ff817e;
+  color: #fff;
+  font-weight: 600;
+}
+
+.button-pink:hover {
+  color: #000;
+}
+
+.button-transperent {
+  font-size: 0.7rem;
+  background: rgba(0, 0, 0, 0);
+  color: #000;
+  font-weight: 400;
+}
+
+.button-transperent:hover {
+  color: #ff817e;
+}
+
+.fa-play {
+  color: #ff817e;
+  background: #fcf5ee;
+  padding: 15px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
