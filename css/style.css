@@ -1,3 +1,8 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Rufina", serif;
+  font-weight: 500;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -6,9 +11,22 @@
   color: #ff817e;
 }
 
+.border-circled {
+  border-radius: 1000px;
+}
+
 #banner {
   padding: 12%;
   background: url("../images/leaf.png") no-repeat left center/12.5%;
+}
+
+#about {
+  position: relative;
+}
+
+.banner-title {
+  font-size: 60px;
+  line-height: 75px;
 }
 
 .spa-img {
@@ -55,4 +73,19 @@
   padding: 15px;
   border-radius: 100px;
   margin-right: 10px;
+}
+
+#china-rose {
+  max-width: 150px;
+  position: absolute;
+  left: 12%;
+  top: 0;
+}
+
+#jasmine {
+  max-width: 100px;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
 }
