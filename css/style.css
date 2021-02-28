@@ -125,3 +125,24 @@ h1, h2, h3, h4, h5, h6 {
 .gallery-item:hover .gallery-item-overlay {
   opacity: 1;
 }
+
+.card-item {
+  border: 1px solid #e3e6ea;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
+  height: 100%;
+}
+.card-item img {
+  max-width: 100%;
+  height: auto;
+}
+.card-item .card-item-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card-item .card-item-body {
+  color: #6c757d;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
