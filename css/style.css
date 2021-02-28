@@ -19,6 +19,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 1000px;
 }
 
+.py-10px {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
 #banner {
   padding: 12%;
   background: url("../images/leaf.png") no-repeat left center/12.5%;
@@ -44,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
 }
 
-.button-pink, .button-transperent {
+.button-pink, .button-transperent, .button-darked {
   border: 0px;
   padding: 15px 30px;
   transition-duration: 300ms;
@@ -69,6 +74,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .button-transperent:hover {
   color: #ff817e;
+}
+
+.button-darked {
+  background: #30383b;
+  color: #fff;
+  font-weight: 600;
+}
+
+.button-darked:hover {
+  background: #ff817e;
 }
 
 .fa-play {
