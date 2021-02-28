@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Rufina", serif;
   font-weight: 500;
@@ -88,4 +92,36 @@ h1, h2, h3, h4, h5, h6 {
   right: 5%;
   top: 50%;
   transform: translateY(-50%);
+}
+
+#gallery {
+  display: flex;
+  flex-basis: 25%;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.gallery-item {
+  max-width: 25%;
+  position: relative;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.gallery-item .gallery-item-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 129, 126, 0.9);
+  color: white;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  opacity: 0;
+  transition-duration: 0.3s;
+}
+
+.gallery-item:hover .gallery-item-overlay {
+  opacity: 1;
 }
