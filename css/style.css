@@ -161,3 +161,30 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.9rem;
   line-height: 1.5rem;
 }
+
+#carousel {
+  background: #fff9f8;
+}
+
+.carousel-name {
+  font-size: 1.4rem;
+}
+
+.carousel-position {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.carousel-text {
+  font-size: 1.3rem;
+  font-weight: 300 !important;
+  line-height: 2rem;
+}
+
+.carousel-indicators li {
+  background: #ff817e;
+  width: 10px;
+  height: 10px !important;
+  border-radius: 10px;
+  border: 0px solid #ff817e;
+}
