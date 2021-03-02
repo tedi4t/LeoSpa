@@ -188,3 +188,65 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 10px;
   border: 0px solid #ff817e;
 }
+
+.team-member {
+  position: relative;
+  margin-bottom: 50px !important;
+}
+
+.team-img {
+  z-index: 1;
+  max-width: 100%;
+}
+
+.team-overlay {
+  position: absolute;
+  bottom: -45px;
+  left: 0;
+  right: 0;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  transition-duration: 0.5s;
+}
+.team-overlay .team-position {
+  font-size: 0.9rem;
+}
+.team-overlay .team-overlay-social {
+  transition-duration: 0.3s;
+  opacity: 0;
+  margin-top: -35px;
+}
+
+.team-overlay:hover .team-overlay-social {
+  opacity: 1;
+  margin-top: 0px;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram {
+  border: 1px solid #6c757d;
+  border-radius: 50%;
+  transition-duration: 300ms;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.fa-facebook-f {
+  padding: 8px 10px;
+}
+
+.fa-twitter {
+  padding: 8px 8px;
+}
+
+.fa-instagram {
+  padding: 8px 9px;
+}
+
+.fa-facebook-f:hover, .fa-twitter:hover, .fa-instagram:hover {
+  border: 1px solid #ff817e;
+  color: #fff;
+  background: #ff817e;
+}
