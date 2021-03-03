@@ -285,3 +285,33 @@ h1, h2, h3, h4, h5, h6 {
   color: #999;
   font-size: 0.7rem;
 }
+
+.fa-map-marker-alt, .fa-envelope, .fa-mobile {
+  border-radius: 50%;
+  color: #fff;
+  background: #ff817e;
+}
+
+.fa-map-marker-alt {
+  padding: 16px 18px;
+}
+
+.fa-envelope {
+  padding: 16px 16px;
+}
+
+.fa-mobile {
+  padding: 16px 19px;
+}
+
+.align-vertically {
+  display: grid !important;
+  align-content: center;
+}
+
+.touch-input {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 25px;
+  border: 1px solid #d4d3d3;
+}
