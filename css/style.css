@@ -250,3 +250,38 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   background: #ff817e;
 }
+
+#contact {
+  background: #fff9f8;
+}
+
+.contact-wrap {
+  display: flex;
+  align-items: center;
+}
+.contact-wrap .figure-wrap {
+  flex-basis: 40%;
+}
+.contact-wrap .figure-wrap img {
+  width: 100%;
+  height: auto;
+}
+.contact-wrap .form-wrap {
+  flex-basis: 60%;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+.contact-wrap .form-wrap .contact-form-item {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #d4d3d3;
+  color: #999;
+  padding: 10px 0;
+  font-size: 0.7rem;
+  background: transparent;
+  margin-bottom: 30px;
+}
+.contact-wrap .form-wrap .contact-notes-label {
+  color: #999;
+  font-size: 0.7rem;
+}
