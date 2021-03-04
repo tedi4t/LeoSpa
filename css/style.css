@@ -111,6 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #gallery {
   display: flex;
+  flex-wrap: wrap;
   flex-basis: 25%;
   margin-left: -2px;
   margin-right: -2px;
@@ -119,8 +120,10 @@ h1, h2, h3, h4, h5, h6 {
 .gallery-item {
   max-width: 25%;
   position: relative;
-  margin-left: 2px;
-  margin-right: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-top: 2px;
 }
 .gallery-item .gallery-item-overlay {
   position: absolute;
@@ -429,4 +432,27 @@ nav .navbar-small-devices.active {
   height: auto;
   max-height: 300px;
   transition-duration: 1s;
+}
+
+@media (max-width: 768px) {
+  #gallery {
+    flex-basis: 50%;
+  }
+
+  .gallery-item {
+    max-width: 50%;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+  }
+
+  .contact-wrap .figure-wrap {
+    display: none;
+  }
+  .contact-wrap .form-wrap {
+    flex-basis: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
