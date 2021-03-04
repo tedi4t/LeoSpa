@@ -219,36 +219,31 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
   margin-top: -35px;
 }
-
-.team-member:hover .team-overlay-social {
-  opacity: 1;
-  margin-top: 0px;
-}
-
-.fa-facebook-f, .fa-twitter, .fa-instagram {
+.team-overlay .team-overlay-social .fa-facebook-f, .team-overlay .team-overlay-social .fa-twitter, .team-overlay .team-overlay-social .fa-instagram {
   border: 1px solid #6c757d;
   border-radius: 50%;
   transition-duration: 300ms;
   margin-right: 3px;
   margin-left: 3px;
 }
-
-.fa-facebook-f {
+.team-overlay .team-overlay-social .fa-facebook-f {
   padding: 8px 10px;
 }
-
-.fa-twitter {
+.team-overlay .team-overlay-social .fa-twitter {
   padding: 8px 8px;
 }
-
-.fa-instagram {
+.team-overlay .team-overlay-social .fa-instagram {
   padding: 8px 9px;
 }
-
-.fa-facebook-f:hover, .fa-twitter:hover, .fa-instagram:hover {
+.team-overlay .team-overlay-social .fa-facebook-f:hover, .team-overlay .team-overlay-social .fa-twitter:hover, .team-overlay .team-overlay-social .fa-instagram:hover {
   border: 1px solid #ff817e;
   color: #fff;
   background: #ff817e;
+}
+
+.team-member:hover .team-overlay-social {
+  opacity: 1;
+  margin-top: 0px;
 }
 
 #contact {
@@ -307,6 +302,7 @@ h1, h2, h3, h4, h5, h6 {
 .align-vertically {
   display: grid !important;
   align-content: center;
+  justify-items: start;
 }
 
 .touch-input {
@@ -314,4 +310,30 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 20px;
   margin-bottom: 25px;
   border: 1px solid #d4d3d3;
+}
+
+footer {
+  background: #fff9f8;
+}
+footer .footer-logo {
+  height: 40px;
+}
+
+.footer-social {
+  text-align: center;
+}
+.footer-social .fa-facebook-f, .footer-social .fa-twitter, .footer-social .fa-instagram {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.footer-social .border-right-icon {
+  border-right: 1px solid #6c757d;
+}
+.footer-social .fa-facebook-f:hover, .footer-social .fa-twitter:hover, .footer-social .fa-instagram:hover {
+  color: #ff817e;
+  transition-duration: 0.2s;
+}
+
+.footer-text {
+  font-size: 0.9rem;
 }
