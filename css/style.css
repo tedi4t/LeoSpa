@@ -373,3 +373,60 @@ nav .nav-item:hover a {
   color: #ff817e;
   transition-duration: 0.2s;
 }
+nav .navbar-toggler {
+  z-index: 1000;
+  padding: 10px 5px;
+}
+nav .navbar-toggler .navbar-toggler-icon {
+  width: 30px;
+  height: 3px;
+  border-radius: 5px;
+  background: #ff817e;
+  position: relative;
+}
+nav .navbar-toggler .navbar-toggler-icon::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  width: 30px;
+  height: 3px;
+  border-radius: 5px;
+  background: #ff817e;
+}
+nav .navbar-toggler .navbar-toggler-icon::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  width: 30px;
+  height: 3px;
+  border-radius: 5px;
+  background: #ff817e;
+}
+nav .navbar-small-devices {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  background: #fcf5ee;
+  max-height: 0;
+  overflow: hidden;
+  transition-duration: 3s;
+}
+nav .navbar-small-devices .nav-items-list {
+  list-style-type: none;
+}
+nav .navbar-small-devices .nav-item {
+  display: block;
+  margin-right: 0px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+nav .navbar-small-devices .nav-item a {
+  font-size: 1rem;
+  font-weight: 500;
+}
+nav .navbar-small-devices.active {
+  height: auto;
+  max-height: 300px;
+  transition-duration: 1s;
+}
