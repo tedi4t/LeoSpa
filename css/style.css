@@ -337,3 +337,39 @@ footer .footer-logo {
 .footer-text {
   font-size: 0.9rem;
 }
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+nav .nav-logo {
+  float: left;
+  text-align: center;
+}
+nav .nav-logo img {
+  height: 40px;
+}
+nav .nav-items {
+  float: right;
+}
+nav .nav-items-list {
+  list-style-type: none;
+}
+nav .nav-item {
+  display: inline;
+  margin-right: 30px;
+}
+nav .nav-item a {
+  text-decoration: none;
+  color: #30383b;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+nav .nav-item:hover a {
+  color: #ff817e;
+  transition-duration: 0.2s;
+}
