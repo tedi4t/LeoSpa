@@ -456,3 +456,6 @@ nav .navbar-small-devices.active {
     padding-right: 30px;
   }
 }
+.bg-lighted {
+  background: #fff9f8;
+}
