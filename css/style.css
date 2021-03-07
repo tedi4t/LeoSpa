@@ -7,6 +7,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+.mt-150px {
+  margin-top: 150px !important;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
