@@ -459,3 +459,7 @@ nav .navbar-small-devices.active {
 .bg-lighted {
   background: #fff9f8;
 }
+
+.bg-none {
+  background: #fff !important;
+}
