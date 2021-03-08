@@ -467,3 +467,33 @@ nav .navbar-small-devices.active {
 .bg-none {
   background: #fff !important;
 }
+
+.map-image {
+  width: 100%;
+  height: auto;
+}
+
+path {
+  fill: #ff817e;
+  stroke: #fff;
+  stroke-width: 2px;
+  transition-duration: 200ms;
+}
+
+path:hover {
+  fill: #fc8d59;
+}
+
+#map-country-name {
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  background: #fc8d59;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  transition: 300ms;
+  transition-property: opacity;
+}
