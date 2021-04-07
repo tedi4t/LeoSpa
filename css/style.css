@@ -496,4 +496,5 @@ path:hover {
   color: #fff;
   transition: 300ms;
   transition-property: opacity;
+  opacity: 0;
 }
